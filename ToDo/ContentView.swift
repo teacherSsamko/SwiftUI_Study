@@ -10,13 +10,13 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-        List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
-            Text("It's Swift!")
-                .padding()
-                .foregroundColor(.green)
+        VStack(alignment: .leading) {
+            Text("Turtle Rock")
+                    .foregroundColor(.black)
                 .font(.title)
+            Text("Joshua Tree National Park")
+                .font(.subheadline)
         }
-//        List()
     }
 }
 
